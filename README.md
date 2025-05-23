@@ -17,11 +17,6 @@ All data is released under CC BY-NC 4.0.
 ## 🧠 FSQ Types
 The dataset includes 11 fine-grained Socratic subtypes (e.g., Lacks Evidence, Temporal Contrast). See `annotation_guidelines.pdf` for details.
 
-## 🧪 Baseline Code
-Includes scripts for:
-- GPT-3.5 / GPT-4 prompting
-- Span-level evaluation (BERTScore, Jaccard)
-- Annotation agreement
 
 ## 🚀 Quickstart
 ```bash
