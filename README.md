@@ -1,9 +1,11 @@
 # focus-socratic-question
 Dataset and baseline code for “FOCUS: A Benchmark for Identifying the Focus of Socratic Questions” (EMNLP 2025 submission).
-# FOCUS: A Benchmark for Identifying the Focus of Socratic Questions
+#FOCUS: A Benchmark for Targeted Socratic Question Generation via
+Source-Span Grounding
 
 This repository contains the dataset and code accompanying the EMNLP 2025 submission:  
-**"FOCUS: A Benchmark for Identifying the Focus of Socratic Questions"**
+**"FOCUS: A Benchmark for Targeted Socratic Question Generation via
+Source-Span Grounding"**
 
 ## 📘 Dataset
 FOCUS is a benchmark of 140 annotated arguments with span-level labels indicating the *focus* of Socratic questions. Each entry includes:
