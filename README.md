@@ -1,5 +1,5 @@
-****Repository: focus-socratic-question
-****
+**Repository: focus-socratic-question
+**
 This repository hosts the FOCUS benchmark and associated code, data, and documentation for targeted Socratic question generation via source‑span grounding.
 
 Current Paper
