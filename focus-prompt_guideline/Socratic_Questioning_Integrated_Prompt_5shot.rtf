@@ -1,0 +1,185 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+\uc0\u55358 \u56800  Socratic Questioning Background\
+\
+Socratic questioning is a disciplined method of inquiry that systematically directs thought in multiple directions to achieve various intellectual goals (Paul and Binker, 1990). It is used to explore complex ideas, uncover truths, expose problems, reveal underlying assumptions, analyze concepts, distinguish between what is known and unknown, and trace the logical implications of one\'92s thinking. Unlike ordinary questioning, Socratic questioning employs a deliberate and structured approach to deeply invest...\
+\
+\uc0\u55356 \u57263  Focus of the Question\
+\
+This task is designed to identify which part of an argument should be the focus when generating a Socratic question. Each focus type reflects a different way of probing weaknesses, assumptions, or ambiguities within the argument.\
+\
+\uc0\u55357 \u56524  Task Objective\
+\
+Your goal is to determine whether an argument requires probing through one or more aspects of Socratic questioning.\
+\
+\uc0\u55357 \u56541  Instructions\
+\
+- Read the argument along with the exemplar associated with each focus type.\
+- For a given type (e.g., Other Stakeholder Perspective), perform binary classification:\
+  - Yes: The argument can be probed using this Socratic question type.\
+  - No: The argument is not relevant to this type.\
+- If \'93Yes,\'94 select the specific span of text that should be the focus of the Socratic question.\
+  - The span should be as short as possible while still capturing the necessary meaning.\
+  - If there are multiple possible spans, choose the one that appears first in the text.\
+  - The selected span should lend itself to generating a thought-provoking and meaningful Socratic question.\
+\
+\uc0\u55357 \u56589  FSQ Types and Criteria\
+\
+1. Other Stakeholder Perspective:\
+   - Definition: A phrase that reflects a viewpoint from a stakeholder who may disagree with the main argument.\
+   - Span Criteria:\
+     - The argument explicitly offers a contrasting or conflicting perspective from another stakeholder.\
+     - It highlights a potential conflict of interest between stakeholders.\
+\
+2. Temporal Contrast:\
+   - Definition: A phrase that highlights how criteria, conditions, or contexts may shift over time.\
+   - Span Criteria:\
+     - Explicitly compares or contrasts two different time periods.\
+     - Reflects changes in access to information or norms that influence the argument.\
+\
+3. Vague or Ambiguous Terms:\
+   - Definition: A phrase that may be unclear, imprecise, or difficult for the general public to understand.\
+   - Span Criteria:\
+     - Semantic ambiguity or conceptual vagueness.\
+     - Impact on the argument\'92s meaning or force.\
+\
+4. Overgeneralized Statement:\
+   - Definition: A phrase in which the author assumes a claim to be universally true across all situations.\
+   - Span Criteria:\
+     - Generalization from limited examples to an entire group.\
+     - Do not focus on the quantifier alone, but the generalization itself.\
+\
+5. Implicit Existence:\
+   - Definition: A phrase where the author assumes something to be true or present without explicit justification.\
+   - Span Criteria:\
+     - Logical dependency on an unstated idea.\
+     - Selected based on implicit assumptions, not explicitly stated reasoning.\
+\
+6. Bias and Subjectivity:\
+   - Definition: A phrase where belief or judgment is based on emotion, personal experience, or bias.\
+   - Span Criteria:\
+     - Opens reflection on emotional vs. factual basis.\
+     - Includes subjective tone, personal opinion, or affective language.\
+\
+7. Lacks Evidence:\
+   - Definition: A bold or controversial claim made without any supporting evidence.\
+   - Span Criteria:\
+     - Asserted without evidence or reasoning.\
+     - If irrelevant support is present, do not select this category.\
+\
+8. Weak Evidence:\
+   - Definition: A claim supported by insufficient or loosely related evidence.\
+   - Span Criteria:\
+     - Contains relevant but unconvincing evidence.\
+     - Support fails to justify the claim.\
+\
+9. Questionable Cause-Effect Relationship:\
+   - Definition: A phrase assuming causation when the link may be coincidental or flawed.\
+   - Span Criteria:\
+     - Mistaken correlation or assumed causal relationship without justification.\
+\
+10. Causality Flipped:\
+   - Definition: A phrase where the cause and effect are mistakenly reversed.\
+   - Span Criteria:\
+     - Logic can be challenged by showing causality flows in the opposite direction.\
+\
+11. None of the Above:\
+   - Use when no FSQ type appropriately applies.\
+   - Span should be "Null".\
+\
+\uc0\u55357 \u56549  Input Format\
+\
+Argument:\
+<ARGUMENT TEXT>\
+\
+\uc0\u55357 \u56548  Expected Output Format\
+\
+Classification:\
+A list of one or two Focus of Question (FSQ Types):\
+e.g., ["Implicit Existence", "Bias and Subjectivity"]\
+\
+Span:\
+For each selected category, return the most relevant supporting span from the argument:\
+e.g., ["When I was still in the womb", "the doctors recommended that I be aborted because I seemed to be developing abnormally"]\
+\
+If "None of the above" is selected, return ["Null"] as the span.\
+\
+1) Example\
+\
+Input:\
+Argument:\
+The issue is that the pregnancy is, due to biological constraints, forced upon the woman. This gives her the sole right to an abortion. Consider what happens if there's a surrogacy.\
+\
+Output:\
+Classification:\
+["Vague or Ambiguous Terms for General Public?", "Overgeneralizing statement "]\
+\
+Span:\
+["biological constraints", "pregnancy is, due to biological constraints, forced upon the woman."]\
+\
+\
+2) Example\
+\
+Input:\
+Argument:\
+It would be cringe because trump's policies (and other things) are extremely at odds with theirs. But fair enough. If you don't think it would be cringe for trump I can understand why it wouldn't be cringe for biden either.\
+\
+Output:\
+Classification:\
+["Others Stakeholder Perspective", "Temporal Contrast"]\
+\
+Span:\
+["trump's policies (and other things) are extremely at odds with theirs", "trump's policies"]\
+\
+\
+3) Example\
+\
+Input:\
+Argument:\
+This is a matter of pure statistics. Uneducated/unintelligent people breed more than educated/intelligent ones. Therefore, whenever I learn that someone has a child, I assume they are less intelligent than I had prior to learning that fact.\
+\
+Output:\
+Classification\
+["Implicit Existence", "Bias and Subjectivity"]\
+\
+Span:\
+["This is a matter of pure statistics. Uneducated/unintelligent people breed more than educated/intelligent ones.", "they are less intelligent than I had prior to learning that fact"]\
+\
+\
+4) Example\
+\
+Input:\
+Argument:\
+I Think it should be illegal because it brain washes men to become addicted. It has even been proven to ruin men's lives check out r/NoFap. It also degrades women to nothing sexual objects same can apply to men as well. Also Masturbation encourages the sexual exploitation of women through porn.\
+\
+Output:\
+Classification\
+["Questionable Cause-Effect Relationship", "None of the Above"]\
+\
+Span:\
+["it brain washes men to become addicted", "Null"]\
+\
+5) Example:\
+\
+Input:\
+Argument:\
+I am profoundly in favor of people thinking for themselves, but only because I think it will eventually lead people to conclusions similar to mine. If you think for yourself and you arrive at a false or harmful set of views, then you wasted your time and you shouldn't have thought for yourself.\
+\
+Output:\
+Classification\
+["Lacks Evidence", "Weak Evidence"]\
+\
+Span:\
+["you wasted your time", "it will eventually lead people to conclusions similar to mine"]\
+\
+\
+\
+\
+\
+}
